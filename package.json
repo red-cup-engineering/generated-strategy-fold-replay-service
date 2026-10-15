@@ -1,7 +1,7 @@
 {
   "name": "@red-cup-engineering/generated-strategy-fold-replay-service",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "type": "module",
   "description": "Replays one statically admitted generated strategy over causal frames in an isolated worker and returns validation, untouched holdout, and current decisions.",
   "exports": {
@@ -11,5 +11,11 @@
     "check": "node --check src/replay-folds.mjs",
     "test": "node --test test/*.test.mjs",
     "verify": "npm run check && npm test"
-  }
+  },
+  "files": [
+    "package.json",
+    "README*",
+    "LICENSE*",
+    "src"
+  ]
 }

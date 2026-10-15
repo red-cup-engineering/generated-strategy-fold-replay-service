@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { createGeneratedStrategyFoldReplay } from "../src/replay-folds.mjs";
+import { createGeneratedStrategyFoldReplay } from "@red-cup-engineering/generated-strategy-fold-replay-service";
 test("routes every causal decision through the sandbox and preserves untouched holdout", async () => {
   const frames = Array.from({ length: 10 }, (_, index) => ({ index, at: `t${index}`, input: { symbols: ["AAA", "BBB"], features: { AAA: {}, BBB: {} } } }));
   const prices = { AAA: Array.from({ length: 10 }, (_, i) => 100 + i), BBB: Array.from({ length: 10 }, (_, i) => 100 - i / 2), SPY: Array(10).fill(100) };
