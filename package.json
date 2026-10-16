@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/generated-strategy-fold-replay-service",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "type": "module",
   "description": "Replays one statically admitted generated strategy over causal frames in an isolated worker and returns validation, untouched holdout, and current decisions.",
