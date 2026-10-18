@@ -4,6 +4,11 @@
   "private": false,
   "type": "module",
   "description": "Replays one statically admitted generated strategy over causal frames in an isolated worker and returns validation, untouched holdout, and current decisions.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
+    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/web2-financial-platform-services-section/services/web2-financial-brokerage-platform-services-section/services/alpaca-services-section/services/generated-strategy-fold-replay-service"
+  },
   "exports": {
     ".": "./src/replay-folds.mjs"
   },
